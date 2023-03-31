@@ -1,0 +1,302 @@
+/*IMPORTAR FUENTES*/
+/*
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../fonts/coolvetica.ttf);
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+
+/*********ESTILOS GENERALES***********/
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: #2366a7;
+}
+
+header nav{
+    /* display: inline-block; */
+    
+    display: flex;
+    justify-content: flex-end;
+
+}
+header div{
+    width: 200px;
+}
+
+header div img {
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    /* display: inline-block; */
+    margin-left: 80px;
+    position: relative;
+}
+
+header nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+
+.Logo{
+    display: flex;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu ul {
+
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    
+    margin-right: 20px;
+    flex-direction: row;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.SectionQueOfrecemos{
+    display: flex;
+    background-color: #2366a7;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.QueOfrecemos_Cuadro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    
+}
+
+.TituloIntermedio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 280px;
+}
+.TituloIntermedio_QueOfrecemos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 320px;
+    text-align:  center;
+}
+/* Este es un comentario en CSS */
+.Especialidad_cuadro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo_Especialidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cuadro_espacialidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.SubtituloEspecialidades{
+    display: flex;
+    text-align:  left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 280px;
+}
+
+.Especialidad_explicacion{
+    display: flex;
+    text-align:  left;
+    width: 280px;
+}
+
+
+.item-wrapper{
+
+    width: 400px;
+    height: 300px;
+}
+
+.item-img{
+    display: flex;
+    width: 400px;
+    height: 200px;
+}
+
+.Img_espacialidad{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+
+body {
+    color:black;
+}
+
+h1{
+    text-align: center;
+    color:rgb(100, 100, 100);
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.Titulo_Mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Titulo_GaleriaDeFotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GaleriaDeFotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid: template columns 4px;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grid-container_Contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.Contacto {
+    background-color: white;
+    color:  #2366a7;
+}
+
+
+.PiedePagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    background-color: #2366a7;
+    color: white;
+}
+
+
+
