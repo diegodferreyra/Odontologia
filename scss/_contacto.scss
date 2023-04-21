@@ -1,0 +1,9 @@
+.grid-container_Contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.contacto {
+    background-color: white;
+    color:  black;
+}

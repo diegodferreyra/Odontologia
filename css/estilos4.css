@@ -45,7 +45,7 @@
     padding: 0;
 }
 /* tamaño contenedor logo */
-header_div{
+.header_div{
     width: 48%;
     height: 100%;
 }
@@ -137,39 +137,39 @@ header nav ul li a{
 
 
 /*Definiciones de alineado*/
-.align-item-center{
+/*.align-item-center{
     display: flex;
     align-items: center;
 }
 .justify-content-center{
     display: flex;
     justify-content: center;
-}
+}*/
 
+/*
 .sectionQueOfrecemos{
     font-size: 0.8rem;
     line-height: 1.5;
     background-color: #2366a7;
     color: white;
-}
+}*/
+
 /*Contacto*/
-.grid-container_Contacto {
+/*.grid-container_Contacto {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
-.Contacto {
+.contacto {
     background-color: white;
     color:  black;
-}
+}*/
+
 /*Pie de Pagina*/
-.PiedePagina{
+/*.piedePagina{
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     line-height: 1.5;
     background-color: #2366a7;
     color: white;
-}
-
-
-
+}*/
