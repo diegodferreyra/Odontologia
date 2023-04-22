@@ -1,7 +1,11 @@
 .piedePagina{
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     line-height: 1.5;
     background-color: #2366a7;
     color: white;
+    justify-content: space-around;
+    align-content: space-around;
 }

@@ -1,0 +1,86 @@
+.card_main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2366a7;
+    color: white;
+    display:flex;
+}
+
+.main_index{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_index ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* tamaño contenedor logo */
+.header_div{
+    width: 48%;
+    height: 100%;
+}
+/* tamaño logo */
+header div img{
+    width: 200px;
+    height: 130px;
+    max-height: 160px;
+    max-width: 4500px;
+}
+/* tamaño contenedor navegador */
+.card_header_nav_ul{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+/* propiedades contenedor listas */
+
+/* propiedades listas navegación */
+header nav ul li{
+    padding: 10px;
+    a{
+        color: white;
+        font-size: 120%;
+        text-decoration: none;
+    }
+}
+/* listas */
+/*header nav ul li a{
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+}*/
+.inputMenu{
+    display: none;
+}
+
+.menu li {  
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar-nav{
+    .nav-link{
+        color:white;
+        font-weight: 500;
+        &:hover{
+            color:#8fb4cc;
+        }
+    }
+}
