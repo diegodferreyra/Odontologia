@@ -1,0 +1,47 @@
+.Mapa {
+    margin-top: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .mapa {
+        padding: 0;
+    }
+
+    .embed-responsive {
+        margin-bottom: 15px;
+    }
+}
+
+.mapa {
+    position: relative;
+    padding-bottom: 56.25%; /* establece la relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}

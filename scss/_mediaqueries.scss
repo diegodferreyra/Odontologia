@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+    .contactocelular {
+        display: table;
+    }
+    .contacto {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) {
+    .contactocelular {
+        display: none;
+    }
+    .contacto {
+        display: table;
+    }
+}
