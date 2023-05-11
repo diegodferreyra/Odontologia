@@ -2,15 +2,10 @@
     max-width: 500px; 
     margin: 0 auto; 
 }
-/* propiedades de carousel de imagenes pagina index */
 .carousel-inner {
     max-height: 700px; 
 }
-/* propiedades de carousel de imagenes pagina index */
 .carousel-item img {
-   /* max-width: 100%; 
-    height: auto; 
-    margin: 0 auto;*/
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -2,6 +2,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+ /*   background-color: #2366a7;*/
     background-color: #2366a7;
     color: white;
     display:flex;
@@ -59,6 +60,11 @@ header nav ul li{
 }*/
 .inputMenu{
     display: none;
+    background-color: red;
+    color: red;
+}
+.inputMenu:checked ~ .menu-icon span {
+    background-color: red; /* Cambiar por el color deseado */
 }
 
 .menu li {  
@@ -84,3 +90,4 @@ header nav ul li{
         }
     }
 }
+/*  */

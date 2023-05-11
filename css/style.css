@@ -49,6 +49,9 @@
 .contacto {
   background-color: white;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #carouselExample {
@@ -56,16 +59,11 @@
   margin: 0 auto;
 }
 
-/* propiedades de carousel de imagenes pagina index */
 .carousel-inner {
   max-height: 700px;
 }
 
-/* propiedades de carousel de imagenes pagina index */
 .carousel-item img {
-  /* max-width: 100%; 
-   height: auto; 
-   margin: 0 auto;*/
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -75,6 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /*   background-color: #2366a7;*/
   background-color: #2366a7;
   color: white;
   display: flex;
@@ -137,6 +136,12 @@ header nav ul li a {
 }*/
 .inputMenu {
   display: none;
+  background-color: red;
+  color: red;
+}
+
+.inputMenu:checked ~ .menu-icon span {
+  background-color: red; /* Cambiar por el color deseado */
 }
 
 .menu li {
@@ -162,6 +167,7 @@ header nav ul li a {
   color: #8fb4cc;
 }
 
+/*  */
 .main_position {
   padding-top: 120px;
 }
@@ -236,6 +242,16 @@ main section {
 
 h1 {
   font-size: 2rem;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+.imagenconsultorio img {
+  width: 300px;
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
